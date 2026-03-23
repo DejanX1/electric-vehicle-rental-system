@@ -1,0 +1,5 @@
+Iznajmljivanje: idVozila=B1, imeKorisnika=K2, lokacijaPreuzimanja='2,1', lokacijaVracanja='7,13', trajanje=4.0, datumIVrijemeIznajmljivanja=1.6.2024 09:00, ukupnaCijena=0.0, promocija=true, popust=false
+Iznajmljivanje: idVozila=T1, imeKorisnika=K1, lokacijaPreuzimanja='0,0', lokacijaVracanja='7,8', trajanje=5.0, datumIVrijemeIznajmljivanja=1.6.2024 09:00, ukupnaCijena=33.12, promocija=true, popust=false
+Iznajmljivanje: idVozila=T2, imeKorisnika=K3, lokacijaPreuzimanja='2,8', lokacijaVracanja='9,16', trajanje=6.0, datumIVrijemeIznajmljivanja=1.6.2024 09:00, ukupnaCijena=44.160000000000004, promocija=false, popust=false
+Iznajmljivanje: idVozila=A3, imeKorisnika=K2, lokacijaPreuzimanja='15,15', lokacijaVracanja='17,17', trajanje=8.0, datumIVrijemeIznajmljivanja=1.6.2024 09:30, ukupnaCijena=22.08, promocija=false, popust=false
+Iznajmljivanje: idVozila=T7, imeKorisnika=K1, lokacijaPreuzimanja='8,3', lokacijaVracanja='7,14', trajanje=8.0, datumIVrijemeIznajmljivanja=1.6.2024 09:30, ukupnaCijena=58.879999999999995, promocija=false, popust=false

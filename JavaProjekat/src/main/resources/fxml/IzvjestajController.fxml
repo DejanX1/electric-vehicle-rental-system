@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="1066.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kontroleri.IzvjestajController">
+   <children>
+      <TableView fx:id="rezultatiPoslovanjaTable" layoutX="8.0" layoutY="14.0" prefHeight="508.0" prefWidth="1050.0">
+        <columns>
+          <TableColumn fx:id="terminColumn" prefWidth="55.20001220703125" text="Термин" />
+          <TableColumn fx:id="prihodColumn" prefWidth="56.7999849319458" text="Приход" />
+          <TableColumn fx:id="popustColumn" minWidth="0.0" prefWidth="54.399993896484375" text="Попуст" />
+            <TableColumn fx:id="promocijeColumn" prefWidth="83.20004272460938" text="Промоције" />
+            <TableColumn fx:id="voznjaUSiremDijeluGradaColumn" prefWidth="185.6000518798828" text="Вожња у ширем дијелу града" />
+            <TableColumn fx:id="voznjaUUzemDijeluGradaColumn" prefWidth="182.4000244140625" text="Вожња у ужем дијелу града" />
+            <TableColumn fx:id="iznosOdrzavanjaColumn" minWidth="0.0" prefWidth="127.20001220703125" text="Износ одржавањa" />
+            <TableColumn fx:id="iznosPopravkiKvarovaColumn" minWidth="9.5999755859375" prefWidth="167.20001220703125" text="Износ поправки кварова" />
+            <TableColumn fx:id="troskoviKompanijeColumn" minWidth="0.0" prefWidth="137.60009765625" text="Трошкови  компаније" />
+            <TableColumn fx:id="porezColumn" prefWidth="50.39993896484384" text="Порез" />
+        </columns>
+      </TableView>
+      <Button layoutX="410.0" layoutY="527.0" mnemonicParsing="false" onAction="#prikaziSumarniIzvjestaj" text="Сумарни извјештај" />
+      <Button layoutX="536.0" layoutY="527.0" mnemonicParsing="false" onAction="#prikaziDnevniIzvjestaj" text="Дневни извјештај" />
+   </children>
+</AnchorPane>

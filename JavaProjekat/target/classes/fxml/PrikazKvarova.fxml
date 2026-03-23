@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="tabelaKvarova" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="573.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kontroleri.PrikazKvarovaController">
+  <columns>
+    <TableColumn fx:id="vrstaPrevoznogSredstvaColumn" prefWidth="159.20001220703125" text="Врста превозног средства" />
+    <TableColumn fx:id="idColumn" minWidth="0.0" prefWidth="144.79998779296875" text="Идентификатор" />
+      <TableColumn fx:id="datumIVrijemeColumn" prefWidth="112.0" text="Датум и вријеме" />
+      <TableColumn fx:id="opisColumn" prefWidth="155.39999389648438" text="Опис" />
+  </columns>
+</TableView>
